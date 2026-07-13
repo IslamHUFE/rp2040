@@ -6549,6 +6549,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1932ebe0-67cc-442f-85cb-b42ab96458a9")
+	)
+	(wire
+		(pts
 			(xy 45.72 43.18) (xy 48.26 45.72)
 		)
 		(stroke
@@ -6559,7 +6569,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 78.74) (xy 157.48 78.74)
+			(xy 144.78 78.74) (xy 149.86 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7909,6 +7919,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 78.74) (xy 165.1 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c757f496-da0d-49e3-b023-ac2721af5d2d")
+	)
+	(wire
+		(pts
 			(xy 269.24 146.05) (xy 269.24 148.59)
 		)
 		(stroke
@@ -8059,7 +8079,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 76.2) (xy 157.48 76.2)
+			(xy 144.78 76.2) (xy 149.86 76.2)
 		)
 		(stroke
 			(width 0)
@@ -8417,6 +8437,16 @@
 		)
 		(uuid "6057c10f-0603-4c61-8592-7a7e441b1c69")
 	)
+	(label "USB_IN-"
+		(at 157.48 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "608870ca-995a-4ce0-8891-28e243f4a510")
+	)
 	(label "QSPI_SD3"
 		(at 50.8 163.83 0)
 		(effects
@@ -8496,6 +8526,16 @@
 			(justify left bottom)
 		)
 		(uuid "ceb946a9-3e8d-4906-a95c-52b806ca1511")
+	)
+	(label "USB_IN+"
+		(at 157.48 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4038156-72c4-447d-923d-5a6651316c2e")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -8740,7 +8780,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 161.29 76.2 90)
+		(at 153.67 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8750,7 +8790,7 @@
 		(dnp no)
 		(uuid "1ee7fbbe-1853-4612-ad8d-856f5e474053")
 		(property "Reference" "R6"
-			(at 161.29 71.12 90)
+			(at 153.67 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8760,7 +8800,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 161.29 73.66 90)
+			(at 153.67 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8770,7 +8810,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.544 75.184 90)
+			(at 153.924 75.184 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8781,7 +8821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 76.2 0)
+			(at 153.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8792,7 +8832,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 161.29 76.2 0)
+			(at 153.67 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9626,7 +9666,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 161.29 78.74 90)
+		(at 153.67 78.74 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9636,7 +9676,7 @@
 		(dnp no)
 		(uuid "5a1f4bd1-0e56-4154-b4a7-23c864c84a24")
 		(property "Reference" "R7"
-			(at 161.29 81.534 90)
+			(at 153.67 81.534 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9646,7 +9686,7 @@
 			)
 		)
 		(property "Value" "27"
-			(at 161.29 83.82 90)
+			(at 153.67 83.82 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9656,7 +9696,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 161.544 77.724 90)
+			(at 153.924 77.724 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9668,7 +9708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 78.74 0)
+			(at 153.67 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9679,7 +9719,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 161.29 78.74 0)
+			(at 153.67 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13486,7 +13526,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 21.59 151.13 0)
 			(hide yes)
 			(show_name no)
