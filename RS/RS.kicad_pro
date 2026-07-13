@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.65,
-          "width": 1.625
+          "height": 0.64,
+          "width": 0.54
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -219,11 +219,14 @@
         0.2,
         0.25,
         0.3,
+        0.54,
         0.6,
+        0.64,
         0.65,
         0.775,
         1.0,
-        1.5
+        1.5,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
