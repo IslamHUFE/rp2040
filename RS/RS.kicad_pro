@@ -40,8 +40,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.64,
-          "width": 0.54
+          "height": 1.45,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,8 +52,8 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.5,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
@@ -64,7 +64,7 @@
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
-          "remove_islands": 0,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -214,18 +214,24 @@
         0.089,
         0.1,
         0.105,
+        0.1054,
         0.121,
         0.15,
         0.2,
         0.25,
         0.3,
+        0.4,
         0.4626,
+        0.52,
         0.54,
+        0.56,
         0.6,
+        0.62,
         0.64,
         0.65,
         0.775,
         1.0,
+        1.2,
         1.5,
         2.0
       ],
@@ -571,8 +577,8 @@
         "tuning_profile": ""
       },
       {
-        "diff_pair_gap": 0.0456,
-        "diff_pair_width": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_width": 0.1187,
         "name": "USB",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
